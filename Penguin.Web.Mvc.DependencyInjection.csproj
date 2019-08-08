@@ -1,0 +1,33 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+    <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+    <PackageRequireLicenseAcceptance>true</PackageRequireLicenseAcceptance>
+    <Description>[Warning: Magic] Registers the Penguin.Web.Mvc components as the default implementations of any Penguin.Web.Mvc .Abstractions interfaces</Description>
+    <PackageLicenseFile>License.txt</PackageLicenseFile>
+    <PackageProjectUrl>http://www.penguinms.com/Nuget</PackageProjectUrl>
+    <PackageIconUrl>http://www.penguinms.com/client/images/pg.png</PackageIconUrl>
+    <Version>1.0.0</Version>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Penguin.DependencyInjection" Version="2.2.0" />
+    <PackageReference Include="Penguin.Web.Mvc" Version="1.0.2" />
+  </ItemGroup>
+
+ <ItemGroup>
+    <None Include="..\License.txt">
+      <Pack>True</Pack>
+      <PackagePath></PackagePath>
+    </None>
+  </ItemGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|AnyCPU'">
+    <WarningsAsErrors>NU1605, CS1591</WarningsAsErrors>
+    <DocumentationFile>C:\SVN\Framework\Nuget\Penguin.Web.Mvc.DependencyInjection\Penguin.Web.Mvc.DependencyInjection.xml</DocumentationFile>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|AnyCPU'">
+    <DebugType>full</DebugType>
+    <DocumentationFile>C:\SVN\Framework\Nuget\Penguin.Web.Mvc.DependencyInjection\Penguin.Web.Mvc.DependencyInjection.xml</DocumentationFile>
+  </PropertyGroup>
+</Project>
