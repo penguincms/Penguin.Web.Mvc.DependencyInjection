@@ -1,8 +1,8 @@
-﻿using Penguin.DependencyInjection.Abstractions;
-using Penguin.DependencyInjection;
+﻿using Penguin.DependencyInjection;
 using Penguin.DependencyInjection.ServiceProviders;
 using Penguin.Web.Mvc.Abstractions;
 using Penguin.Web.Mvc;
+using Penguin.DependencyInjection.Abstractions.Interfaces;
 
 namespace Penguin.Cms.Web.Mail.EmailRenderer.DependencyInjection
 {

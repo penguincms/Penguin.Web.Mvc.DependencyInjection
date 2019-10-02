@@ -1,0 +1,18 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>Penguin.Web.Mvc.DependencyInjection</name>
+    </assembly>
+    <members>
+        <member name="T:Penguin.Cms.Web.Mail.EmailRenderer.DependencyInjection.DependencyRegistrations">
+            <summary>
+            Registers dependencies for this assembly
+            </summary>
+        </member>
+        <member name="M:Penguin.Cms.Web.Mail.EmailRenderer.DependencyInjection.DependencyRegistrations.RegisterDependencies">
+            <summary>
+            Registers dependencies for this assembly
+            </summary>
+        </member>
+    </members>
+</doc>
