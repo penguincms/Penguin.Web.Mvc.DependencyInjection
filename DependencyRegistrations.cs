@@ -3,6 +3,7 @@ using Penguin.DependencyInjection.ServiceProviders;
 using Penguin.Web.Mvc.Abstractions;
 using Penguin.Web.Mvc;
 using Penguin.DependencyInjection.Abstractions.Interfaces;
+using Penguin.DependencyInjection.Abstractions.Enums;
 
 namespace Penguin.Cms.Web.Mail.EmailRenderer.DependencyInjection
 {
@@ -14,10 +15,9 @@ namespace Penguin.Cms.Web.Mail.EmailRenderer.DependencyInjection
         /// <summary>
         /// Registers dependencies for this assembly
         /// </summary>
-        public void RegisterDependencies()
+        public void RegisterDependencies(IServiceRegister serviceRegister)
         {
-            Engine.Register<IViewRenderService, ViewRenderService>(typeof(ScopedServiceProvider));
-
+            serviceRegister.Register<IViewRenderService, ViewRenderService>(ServiceLifetime.Scoped);
         }
     }
 }

@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <doc>
     <assembly>
-        <name>Penguin.Web.Mvc.DependencyInjection</name>
+        <name>Penguin.Web.Mvc.DependencyInjection.Local</name>
     </assembly>
     <members>
         <member name="T:Penguin.Cms.Web.Mail.EmailRenderer.DependencyInjection.DependencyRegistrations">
@@ -9,7 +9,7 @@
             Registers dependencies for this assembly
             </summary>
         </member>
-        <member name="M:Penguin.Cms.Web.Mail.EmailRenderer.DependencyInjection.DependencyRegistrations.RegisterDependencies">
+        <member name="M:Penguin.Cms.Web.Mail.EmailRenderer.DependencyInjection.DependencyRegistrations.RegisterDependencies(Penguin.DependencyInjection.Abstractions.Interfaces.IServiceRegister)">
             <summary>
             Registers dependencies for this assembly
             </summary>
