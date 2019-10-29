@@ -7,7 +7,7 @@
     <Version>1.0.2</Version>
   </PropertyGroup>
   <ItemGroup>
-    <PackageReference Include="Penguin.DependencyInjection" Version="4.1.10-T9LXGUJ" />
-    <PackageReference Include="Penguin.Web.Mvc" Version="2.0.4-T9LXGUJ" />
+    <PackageReference Include="Penguin.Web.Mvc" Version="2.0.5-T9M1HHH" />
+    <PackageReference Include="Penguin.DependencyInjection" Version="4.1.11-T9M1K2Y" />
   </ItemGroup>
 </Project>
