@@ -9,7 +9,7 @@
     <RootNamespace>Penguin.Web.Mvc.DependencyInjection</RootNamespace>
   </PropertyGroup>
   <ItemGroup>
-    <PackageReference Include="Penguin.Web.Mvc" Version="2.0.5-T9M2XAX" />
-    <PackageReference Include="Penguin.DependencyInjection" Version="4.1.11-T9M2XAX" />
+    <PackageReference Include="Penguin.Web.Mvc" Version="2.0.5-T9M3AAF" />
+    <PackageReference Include="Penguin.DependencyInjection" Version="4.1.11-T9M3AAF" />
   </ItemGroup>
 </Project>
