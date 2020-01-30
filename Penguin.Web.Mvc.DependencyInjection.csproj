@@ -7,6 +7,7 @@
     <Version>1.0.2</Version>
     <AssemblyName>Penguin.Web.Mvc.DependencyInjection</AssemblyName>
     <RootNamespace>Penguin.Web.Mvc.DependencyInjection</RootNamespace>
+    <DocumentationFile>Penguin.Web.Mvc.DependencyInjection.xml</DocumentationFile>
   </PropertyGroup>
   <ItemGroup>
     <PackageReference Include="Penguin.Web.Mvc" Version="2.0.5-T9QC72V" />
