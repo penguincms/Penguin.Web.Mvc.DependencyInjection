@@ -17,6 +17,11 @@ namespace Penguin.Cms.Web.Mail.EmailRenderer.DependencyInjection
         /// </summary>
         public void RegisterDependencies(IServiceRegister serviceRegister)
         {
+            if (serviceRegister is null)
+            {
+                throw new System.ArgumentNullException(nameof(serviceRegister));
+            }
+
             serviceRegister.Register<IViewRenderService, ViewRenderService>(ServiceLifetime.Scoped);
         }
     }
