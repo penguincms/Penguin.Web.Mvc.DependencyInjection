@@ -11,6 +11,6 @@
   </PropertyGroup>
   <ItemGroup>
     <PackageReference Include="Penguin.Web.Mvc" Version="5.0.1-TA56XNT" />
-    <PackageReference Include="Penguin.DependencyInjection" Version="5.0.1-TA56XNT" />
+    <PackageReference Include="Penguin.DependencyInjection" Version="5.0.1-TA5WW7O" />
   </ItemGroup>
 </Project>
