@@ -10,7 +10,7 @@
     <DocumentationFile>Penguin.Web.Mvc.DependencyInjection.xml</DocumentationFile>
   </PropertyGroup>
   <ItemGroup>
-    <PackageReference Include="Penguin.Web.Mvc" Version="5.0.2-TACVG7B" />
-    <PackageReference Include="Penguin.DependencyInjection" Version="5.0.2-TACVG7B" />
+    <PackageReference Include="Penguin.Web.Mvc" Version="5.0.2-TADRIFB" />
+    <PackageReference Include="Penguin.DependencyInjection" Version="5.0.2-TADRIFB" />
   </ItemGroup>
 </Project>
