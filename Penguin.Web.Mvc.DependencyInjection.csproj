@@ -3,14 +3,14 @@
   <PropertyGroup>
     <TargetFramework>netstandard2.0</TargetFramework>
     <Description>[Warning: Magic] Registers the Penguin.Web.Mvc components as the default implementations of any Penguin.Web.Mvc .Abstractions interfaces</Description>
-    <PackageProjectUrl>https://github.com/penguincms/Penguin.Web.Mvc.DependencyInjection</PackageProjectUrl>
+    <PackageProjectUrl>https://github.com/PenguinCMS/Penguin.Web.Mvc.DependencyInjection</PackageProjectUrl>
     <Version>5.0.5</Version>
     <AssemblyName>Penguin.Web.Mvc.DependencyInjection</AssemblyName>
     <RootNamespace>Penguin.Web.Mvc.DependencyInjection</RootNamespace>
     <DocumentationFile>Penguin.Web.Mvc.DependencyInjection.xml</DocumentationFile>
   </PropertyGroup>
   <ItemGroup>
-    <PackageReference Include="Penguin.Web.Mvc" Version="5.0.4" />
-    <PackageReference Include="Penguin.DependencyInjection" Version="5.0.6-TAEO1KM" />
+    <PackageReference Include="Penguin.Web.Mvc" Version="5.0.6-TAHULSY" />
+    <PackageReference Include="Penguin.DependencyInjection" Version="5.0.6-TAHULSY" />
   </ItemGroup>
 </Project>
