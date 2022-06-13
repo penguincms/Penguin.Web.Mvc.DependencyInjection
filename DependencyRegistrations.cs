@@ -4,6 +4,7 @@ using Penguin.Web.Mvc.Abstractions;
 using Penguin.Web.Mvc;
 using Penguin.DependencyInjection.Abstractions.Interfaces;
 using Penguin.DependencyInjection.Abstractions.Enums;
+using Penguin.Web.Mvc.Abstractions.Interfaces;
 
 namespace Penguin.Cms.Web.Mail.EmailRenderer.DependencyInjection
 {
