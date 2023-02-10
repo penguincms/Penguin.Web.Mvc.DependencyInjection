@@ -4,12 +4,12 @@
         <name>Penguin.Web.Mvc.DependencyInjection</name>
     </assembly>
     <members>
-        <member name="T:Penguin.Cms.Web.Mail.EmailRenderer.DependencyInjection.DependencyRegistrations">
+        <member name="T:Penguin.Web.Mvc.DependencyInjection.DependencyRegistrations">
             <summary>
             Registers dependencies for this assembly
             </summary>
         </member>
-        <member name="M:Penguin.Cms.Web.Mail.EmailRenderer.DependencyInjection.DependencyRegistrations.RegisterDependencies(Penguin.DependencyInjection.Abstractions.Interfaces.IServiceRegister)">
+        <member name="M:Penguin.Web.Mvc.DependencyInjection.DependencyRegistrations.RegisterDependencies(Penguin.DependencyInjection.Abstractions.Interfaces.IServiceRegister)">
             <summary>
             Registers dependencies for this assembly
             </summary>

@@ -1,12 +1,8 @@
-﻿using Penguin.DependencyInjection;
-using Penguin.DependencyInjection.ServiceProviders;
-using Penguin.Web.Mvc.Abstractions;
-using Penguin.Web.Mvc;
+﻿using Penguin.DependencyInjection.Abstractions.Enums;
 using Penguin.DependencyInjection.Abstractions.Interfaces;
-using Penguin.DependencyInjection.Abstractions.Enums;
 using Penguin.Web.Mvc.Abstractions.Interfaces;
 
-namespace Penguin.Cms.Web.Mail.EmailRenderer.DependencyInjection
+namespace Penguin.Web.Mvc.DependencyInjection
 {
     /// <summary>
     /// Registers dependencies for this assembly
